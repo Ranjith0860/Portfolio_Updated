@@ -96,19 +96,19 @@ function App() {
           
           <div className="flex justify-center space-x-4 mb-12">
             <button 
-              onClick={() => window.open('https://github.com/YOUR_USERNAME')} 
+              onClick={() => window.open('https://github.com/Ranjith0860')} 
               className="transform hover:scale-110 hover:rotate-6 transition-all duration-300 bg-gray-800 p-3 rounded-full hover:bg-gray-700 group"
             >
               <Github className="w-6 h-6 group-hover:text-blue-400 transition-colors duration-300" />
             </button>
             <button 
-              onClick={() => window.open('https://linkedin.com/in/YOUR_USERNAME')} 
+              onClick={() => window.open('https://www.linkedin.com/in/ranjith-kumar-112483282/')} 
               className="transform hover:scale-110 hover:rotate-6 transition-all duration-300 bg-gray-800 p-3 rounded-full hover:bg-gray-700 group"
             >
               <Linkedin className="w-6 h-6 group-hover:text-blue-400 transition-colors duration-300" />
             </button>
             <button 
-              onClick={() => window.location.href = 'mailto:ranjithkumar@example.com'} 
+              onClick={() => window.location.href = 'mailto:ranjithkuma76748r@gmail.com'} 
               className="transform hover:scale-110 hover:rotate-6 transition-all duration-300 bg-gray-800 p-3 rounded-full hover:bg-gray-700 group"
             >
               <Mail className="w-6 h-6 group-hover:text-blue-400 transition-colors duration-300" />
