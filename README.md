@@ -1,1 +1,1 @@
-# ranjit_port
+#A SIMPLE AND DETAILED PORTFOLIO 
