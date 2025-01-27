@@ -7,39 +7,49 @@ function App() {
 
   const projects = [
     {
-      title: 'E-Commerce Website',
-      tech: 'HTML, CSS, JavaScript, Django',
-      description: 'Developed a full-stack e-commerce site with user authentication, product catalog, and payment integration.',
-      features: ['User registration', 'Shopping cart', 'Order tracking']
+      title: 'Online CAB booking System',
+      tech: 'HTML, CSS, JavaScript, java',
+      description: 'User Friendly interface,register pge,host controls the quiz,random questions generate .',
+      features: ['User registration', 'host can control the quiz']
     },
     {
-      title: 'Weather Forecasting App',
-      tech: 'Python, Flask, OpenWeatherMap API',
-      description: 'Built a responsive app that fetches real-time weather updates for any location.'
+      title: 'hospital Management System',
+      tech: 'java, php,  html,css',
+      description: 'Access the patient detials,patients discharge  and other details'
     },
     {
       title: 'Portfolio Website',
       tech: 'HTML, CSS, JavaScript',
       description: 'Designed and deployed a personal portfolio site to showcase skills and projects.'
     }
+    ,
+    {
+      title: 'Sentiment Analysis using machine learning',
+      algorithms: 'KNN,LOgistic,Decesion Tree',
+      description: 'Analysi data set and provide positive and negative comments in 0 and 1'
+    }
   ];
 
   const certifications = [
     {
-      name: 'Python for Everybody (Coursera)',
-      link: 'https://www.coursera.org/account/accomplishments/verify/YOUR_CERTIFICATE_ID'
+      name: 'Python 3 Programming Certificate(UNOVERSITY OF MICHIGAN)',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/553ZD9HBDWMN'
     },
     {
-      name: 'JavaScript Algorithms and Data Structures (freeCodeCamp)',
-      link: 'https://www.freecodecamp.org/certification/YOUR_USERNAME/javascript-algorithms-and-data-structures'
+      name: 'Software Engineering Basics (IBM)',
+      link: 'https://courses.edx.org/certificates/65f66ebbdd0847b4979a305415b8acd7'
     },
     {
-      name: 'Web Development Bootcamp (Udemy)',
+      name: 'NETWORKING CLOUD VIRTUAL INTERNSHIP(AICTE)',
       link: 'https://www.udemy.com/certificate/YOUR_CERTIFICATE_ID'
     },
     {
-      name: 'Responsive Web Design Certification (freeCodeCamp)',
-      link: 'https://www.freecodecamp.org/certification/YOUR_USERNAME/responsive-web-design'
+      name: 'PYTHON FULL STACK DEVELOPER VIRTUAL INTERNSHIP',
+      link: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=10fa1c55bd7cd1770dd767501897c6ec'
+    },
+    {
+      name: 'SQL and Relational Databases 101',
+      link: 'https://courses.cognitiveclass.ai/certificates/b11aef354eec4d0cb3bee61e0a65539f'
     }
   ];
 
@@ -53,7 +63,7 @@ function App() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="relative inline-block mb-8">
             <img
-              src="https://i.ibb.co/Jk4gR9X/ranjith-profile.jpg"
+              src="/src/WhatsApp Image 2024-09-27 at 09.48.44_fcca9d65.jpg"
               alt="Ranjith Kumar"
               className="w-32 h-32 rounded-full mx-auto border-4 border-blue-500 hover:border-blue-400 transition-all duration-300 animate-float object-cover"
             />
